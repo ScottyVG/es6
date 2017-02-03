@@ -4,9 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>ES 6</title>
+  <script data-require="traceur@*" data-semver="0.0.0-20140302" src="https://google.github.io/traceur-compiler/bin/traceur.js" type="text/javascript"></script>
+  <script data-require="systemjs@*"data-semver="0.18.2-dev" src="https://cdn.rawgit.com/systemjs/systemjs/master/dist/system.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- <button>Test</button> -->
+  <script>
+    System.import('./script.js');
+  </script>
 </body>
-<script src="./app.js"></script>
 </html>
