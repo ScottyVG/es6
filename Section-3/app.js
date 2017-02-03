@@ -1,5 +1,6 @@
 /* SECTION 3 */
 /* Modules Setup */
-console.log('test');
-import {keyValue} from './external.js';
-console.log(keyValue);
+import * as imported from './external.js';
+console.log(imported.keyValue);
+imported.test();
+console.log(imported.keyValue);

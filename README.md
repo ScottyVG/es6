@@ -172,3 +172,10 @@ let {name, age} = person; // Notice the {} instead of []
 
 More information may be found here:
 https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+### Modules - Strict Mode and Global Scope
+There are two important Rules, which you need to understand if you're working with ES6 Modules:
+
+Modules are always in Strict Mode (no need to define `"use strict"`)
+
+Modules don't have a shared, global Scope. Instead each Module has its own Scope
