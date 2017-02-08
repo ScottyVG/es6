@@ -1,4 +1,4 @@
-/* SECTION 8 */
+/* SECTION 9 */
 /* Reflect API */
 
 /* Creating Objects with Reflect.construct() */

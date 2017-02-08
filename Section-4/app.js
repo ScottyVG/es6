@@ -1,5 +1,6 @@
 /* SECTION 4 */
 /* Symbols Basics */
+
 // let symbol = Symbol('debug');
 // // console.log(typeof symbol);
 // let anotherSymbol = Symbol('debug');
